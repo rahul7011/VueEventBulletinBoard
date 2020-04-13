@@ -1,0 +1,41 @@
+body{
+    background-color: #f2f2f2 !important;
+    font-weight: bolder !important;
+    font-family: cursive !important;
+}
+
+.no-outline {
+    outline: 0 !important;
+}
+.no-outline:not(:disabled):not(.disabled):focus {
+    color: #6c757d;
+    opacity: 1;
+}
+span{
+    left: 20px;
+    position: relative;
+    top: -12px;
+    color: whitesmoke;
+    background-image: linear-gradient(red, #ff0060);
+    height: 30px;
+    display: inline-block;
+    width: 30px;
+    border-radius: 0 4px 0 0;
+}
+.marg{
+    margin: 10px;
+    border-bottom: 2px solid rgba(0,0,0,.125) !important;
+    border-top: 2px solid rgba(0,0,0,.125) !important;
+}
+/* .back{
+    background-image: url('5.jpg')
+} */
+
+.card{
+    border: none !important;
+}
+.font{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cursive, 'Times New Roman', Times, serif;
+}
